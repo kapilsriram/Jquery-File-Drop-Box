@@ -1,0 +1,121 @@
+
+.file_drop_box{
+	background-color:#eee;
+	border:4px dashed #ddd;
+	-webkit-transition:all 300ms;
+	-moz-transition:all 300ms;
+	-o-transition:all 300ms;
+	transition:all 300ms;
+	position:relative;
+	
+	border-radius:7px;
+	min-height:130px;
+	cursor:default;
+}
+
+.file_drop_box .icon{
+	opacity:0.3;
+	filter:alpha(opacity = 30);
+	-webkit-transition:all 300ms;
+	-moz-transition:all 300ms;
+	-o-transition:all 300ms;
+	transition:all 300ms;
+}
+
+
+
+
+.file_drop_box:hover{
+	border:4px dashed #bbb;
+}
+
+.file_drop_box:hover .icon{
+	opacity:0.5;
+	filter:alpha(opacity = 50);
+}
+
+.file_drop_box .box{
+	margin:5px;
+	border-radius:5px;
+	background-color:#ddd;
+	display:inline-block;
+	width:80px;
+	height:80px;
+	text-align:center;
+	position:relative;
+}
+
+.file_drop_box .box .type{
+	width:48px;
+	height:48px;
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	position:relative;
+	display:inline-block;
+	margin-top:5px;
+}
+
+.file_drop_box .box .type .progress-holder{
+	position:absolute;
+	top:50%;
+	height:6px;
+	width:44px;
+	border:2px solid #fff;
+	border-radius:10px;
+	padding:1px;
+	margin-top:-3px;
+}
+
+.file_drop_box .box .type .progress-holder .progress-bar{
+	background-color:#fff;
+	width:0%;
+	height:100%;
+	border-radius:10px;
+}
+
+.file_drop_box .box .type.blank{background-image:url("images/_blank.png");}
+.file_drop_box .box .type.zip{background-image:url("images/zip.png");}
+.file_drop_box .box .type.bmp{background-image:url("images/bmp.png");}
+.file_drop_box .box .type.jpg{background-image:url("images/jpg.png");}
+.file_drop_box .box .type.gif{background-image:url("images/gif.png");}
+.file_drop_box .box .type.png{background-image:url("images/png.png");}
+.file_drop_box .box .type.rar{background-image:url("images/rar.png");}
+.file_drop_box .box .type.txt{background-image:url("images/txt.png");}
+.file_drop_box .box .type.doc{background-image:url("images/doc.png");}
+.file_drop_box .box .type.ai{background-image:url("images/ai.png");}
+
+.file_drop_box .box .filename{
+	width:48px;
+	overflow:hidden;
+	font-size:11px;
+	height:15px; 
+	display:inline-block;
+}
+
+.file_drop_box .box .cancel{
+	background:url("images/dropbox-cancel.png") no-repeat 50% 50%;
+	width:18px;
+	height:18px;
+	position:absolute;
+	right:-4px;
+	top:-4px;
+	cursor:pointer;
+} 
+
+.file_drop_box .holder{
+	margin-top:12px;
+	text-align:center;
+	width:100%;
+	
+}
+
+.file_drop_box .title{
+	font-size:22px;
+	font-weight:bold;
+	line-height:120%;
+}
+
+.file_drop_box .subtitle{
+	font-size:15px;
+}
+
