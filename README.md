@@ -3,7 +3,7 @@ Jquery-File-Drop-Box
 
 Add drag and drop files functionality to your forms.
 
-It adds a drag and drop feature to your php websites. I have made this for myself(using few online tutorials) as I there were no online open source kits available for this, so I thought I should share my code.
+It adds a drag and drop feature to your php websites. I have made this for myself(using few online tutorials) as there were no online open source kits available for this, so I thought I should share my code.
 
 Its currently not very friendly I just made it usable, I know I could provide many more options with this, but I will plan them in the near future unless someone could help out.
 
