@@ -1,13 +1,13 @@
 <?php
-	require("filedropbox.php");
+	require("filedropbox/filedropbox.php");
 ?>
 <!DOCTYPE HTML>
 <html>
 	<head>
 		<title>JQuery File Drop Box</title>
-		<link rel='stylesheet' href='filedropbox.css' />
-		<script type='text/javascript' src='jquery-1.9.0.min.js' ></script>
-		<script type='text/javascript' src='filedropbox.js' ></script>
+		<link rel='stylesheet' href='filedropbox/css/filedropbox.css' />
+		<script type='text/javascript' src='filedropbox/js/jquery-1.9.0.min.js' ></script>
+		<script type='text/javascript' src='filedropbox/js/filedropbox.js' ></script>
 		<style>
 			body{
 				font-family:Arial;
@@ -28,7 +28,7 @@
 		<form class='file_drop_box_form' action='' method='post' > 
 			<div class='file_drop_box' >
 				<div class='holder' >
-					<img class='icon' src='images/upload.png' />
+					<div class='icon'  ></div>
 					<div class='title' >Drag and drop files</div>
 					<div class='subtitle' >If you have additional files, click or drag to upload images or documents.</div>
 				</div>
