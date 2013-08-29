@@ -7,7 +7,7 @@ It adds a drag and drop feature to your php websites. I have made this for mysel
 
 Its currently not very friendly I just made it usable, I know I could provide many more options with this, but I will plan them in the near future unless someone could help out.
 
-Live demo: http://tomatofry.com/dev/JqueryFileDropBox/demo.php
+Live demo: http://tomatofry.net/dev/JqueryFileDropBox/demo.php
 
 Installation
 -
